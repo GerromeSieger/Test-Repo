@@ -4,5 +4,6 @@ WORKDIR /vuejs
 
 COPY . /vuejs
 
-RUN npm install
+RUN yarn install
 
+CMD yarn serve
