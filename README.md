@@ -1,20 +1,34 @@
-# CRUD Vue.js Django REST Framework
+# subscription-app
 
-This is a case study app to explain how to build a CRUD app with Vue.js and Django REST Framework.
+## Project setup
+```
+yarn install
+```
 
-Read the complete tutorial on codesource.io - https://codesource.io/build-a-crud-application-vue-and-django/
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-### Prerequisites
-* Knowlegde of the Python & JavaScript Programming language.
-* Knowlegde of Vue.js, Django and Django REST Framework
+### Compiles and minifies for production
+```
+yarn run build
+```
 
-## Getting Started
-* Clone this project to your machine
-* Follow the instructions [here](https://codesource.io/build-a-crud-application-vue-and-django/) to setup the Django REST Framework API.
-* Follow the instructions [here](https://codesource.io/build-a-crud-application-vue-and-django/) to setup the Vue.js application.
+### Run your tests
+```
+yarn run test
+```
 
-## Built With
+### Lints and fixes files
+```
+yarn run lint
+```
 
-* [Django REST Framework](https://www.django-rest-framework.org/) - Django REST framework is a powerful and flexible toolkit for building Web APIs
-* [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
-* [SQLite](https://www.sqlite.org/index.html) - Database
+### Run your unit tests
+```
+yarn run test:unit
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
